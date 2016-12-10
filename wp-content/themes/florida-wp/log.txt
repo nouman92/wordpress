@@ -1,0 +1,86 @@
+﻿		
+             V 2.0.1 - 17 March 2014 
+		-Added: Show/Hide Blog sidebar in theme option
+		-Added: Show/Hide Blog single sidebar in theme option
+		-Fixed: Time line featured image
+		-Fixed: Header dark version issue
+		-Fixed: Header type 2
+		-Fixed: Header type 3
+		
+	 v 2.0.0 - 15 March 2014 		
+		- Updated: Visual composer to 4.0.1 version
+		- Added: SEO plug-ins compatibility
+		- Added: Breadcrumb
+		- Added: Review system plugin
+		- Added: Typography full options		
+		- Added: Number slider in theme options
+		- Added: Show/Hide searchbox
+		- Added: VisualComposer post-grid style
+		- Added: VisualComposer post-slider style
+		- Added: VisualComposer post-carousel style
+		- Improved: Latest from blog shortcode
+		- Improved: Blog loop and single options
+		- Improved: Contact form javascripts
+		- Improved: Ourclients shortcode
+		- Improved: fully translate
+		- Fixed: Responsive menu style in header type2,3,4,5
+		- Fixed: learn-more shortcode
+		- Fixed: Page metabox options
+		- Fixed: Social networks widget
+		- Fixed: Sidebar issue
+		- Fixed: Posts gallery issue
+		- Removed: Force activation for VisualComposer plugin
+	
+	v 1.1.6 – 28 February 2014
+		- Updated: Translation texts
+		- Updated: Dummy data xml
+		
+	v 1.1.5 – 26 February 2014
+		- Added: Link url option to our-clients logo
+		- Fixed: Our-clients Icon issue
+		- Fixed: Footer bottom copyright text, now accept shortcode
+		- Fixed: Contact form translatable text
+		- Fixed: Flex slider js issue (visual composer plug-in)
+		- Changed: Category page title (archive.php)
+		
+	v 1.1.4 – 22 February 2014
+		- Fixed: flex slider style issue 
+		- Updated: Revolution slider demo data
+		
+	v 1.1.3 – 20 February 2014
+		- Fixed: contact form
+		
+	v 1.1.2 – 20 February 2014
+		- Added: Enable/Disable Search in menu type 1,6 added in theme option
+		- Added: Logo image for HalfDark page template
+		- Added: Image for Iconbox 
+		- Fixed: Megamenu isseu (functions.php)
+		
+	v 1.1.1 – 16 February 2014
+		- Fixed: single post image alignment (blog.css line 74)
+
+	v 1.1.0 – 16 February 2014
+		- Updated: Visual Composer to ver 3.7.4
+		- Fixed: contact.php Some translatable texts
+		- Fixed: contact.php Emailsender email address issue
+		- Fixed: parts/header2.php Some translatable texts
+		- Fixed: functions.php TextDoamin issue
+		
+	v 1.0.3 – 12 February 2014
+		- Fixed: some minor issue on progressbar.php 
+		- Fixed: single.php Single page featured image 
+		- Changed: Fixed: woocommerce issue
+		- Updated: Documentation
+		
+	v 1.0.2 – 10 February 2014
+		- Fixed: functions.php - google fonts issue 
+		- Fixed: Theme options Helper - google fonts issue 
+		- Changed: Ourteam font-weight (pages.css line 40)
+		
+	v 1.0.1 – 4 February 2014
+		- Changed: Functions.php - fixed PHP Anonymous functions issue 
+		- Changed: inc/shortcodes/button.php - fixed buttons icon issue 
+		- Changed: dummy.xml - fixed demo data spacing issue
+	
+	v 1.0.0 – 4 February 2014
+		- Initial Release

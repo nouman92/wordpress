@@ -1,0 +1,236 @@
+.vc-carousel-indicators {
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.vc-carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #888;
+  background-color: #888;
+}
+.vc-carousel-indicators .vc-active {
+  background-color: transparent;
+  border: 1px solid #666;
+}
+.vc-carousel-indicators .vc-partial {
+  opacity: 0.5;
+}
+.vc-carousel {
+  position: relative;
+}
+.vc-carousel .vc-carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline {
+  position: relative;
+  overflow: hidden;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner {
+  left: 0;
+  position: relative;
+  width: 100%;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner.vc-transition {
+  -webkit-transition: 0.5s ease left;
+  transition: 0.5s ease left;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner.vc-transition.vc-swipe-transition {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner > .vc-item {
+  float: left;
+  visibility: hidden;
+}
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner > .vc-item > img,
+.vc-carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner > .vc-item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+.vc-carousel.vc-per-view-more .vc-carousel-slideline .vc-carousel-slideline-inner > .vc-item > .vc-inner {
+  margin-right:18px; margin-left:2px;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-slideline {
+  overflow: hidden;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-slideline .vc-carousel-slideline-inner {
+  width: 100%;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-slideline .vc-carousel-slideline-inner.vc-transition {
+  -webkit-transition-property: top;
+  transition-property: top;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-slideline .vc-carousel-slideline-inner .vc-item {
+  float: none;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-indicators {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  left: auto;
+  width: 10px;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-indicators li {
+  display: block;
+  margin: 0 auto 3px;
+  width: 6px;
+  height: 6px;
+}
+.vc-carousel.vc_carousel_vertical .vc-carousel-indicators li.vc-active {
+  width: 8px;
+  height: 8px;
+  margin: 0 auto 1px;
+}
+.vc-carousel.vc-build .vc-carousel-slideline .vc-carousel-slideline-inner > .vc-item {
+  visibility: visible;
+}
+.vc-carousel-control {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  margin-top: -32px;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.vc-carousel-control.vc-left {
+margin-left: -44px;
+  /*
+        background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+        */
+
+}
+.vc-carousel-control.vc-right {
+right: auto; left: 50%; margin-left: 5px;
+  /*
+        background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+        background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+        */
+
+}
+.vc-carousel-control .icon-prev,
+.vc-carousel-control .icon-next,
+.vc-carousel-control .glyphicon-chevron-left,
+.vc-carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  z-index: 5;
+  display: inline-block;
+}
+
+.vc-carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.vc-carousel-caption .btn {
+  text-shadow: none;
+}
+
+.vc_carousel .wpb_wrapper { border-top:4px solid #e9e9e9; padding-top:10px; margin-top:30px; padding-bottom:40px;}
+.vc_carousel .vc-carousel-control { top:15px;}
+.vc_carousel .vc-carousel-control .icon-prev, .vc_carousel .vc-carousel-control .icon-next  { opacity:1; background-color: #fff; width: 16px; height: 16px; padding: 10px; border-radius: 50%; right: auto; margin-left: 5px; top: -15px; border: 2px solid #b0b0b0; color: #b0b0b0;}
+.vc_carousel .vc-carousel-control .icon-prev:hover, .vc_carousel .vc-carousel-control .icon-next:hover { border-color: #e84a52; color: #e84a52; background:#fff;}
+.vc_carousel .vc-carousel-control .icon-next:before, .vc_carousel .vc-carousel-control .icon-prev:before { top:0px; opacity:1; position: absolute; top: 7px; right: 9px; font-family: 'icomoon'; font-size: 16px; color: inherit;  content: "\e3b0"; speak: none; font-style: normal; }
+.vc_carousel .vc-carousel-control .icon-prev:before { right:11px; content: "\e3b2"; }
+
+
+.vc_carousel p { font-size:13px; font-weight:400; color:#666; clear:right; line-height:1.6 !important;}
+.vc_carousel img { width: 100%; border-bottom: 3px solid #eee; margin-bottom:8px; height:auto;}
+.vc_carousel h2.post-title { font-size:18px; margin-bottom:5px; font-weight:400; line-height:1.3;}
+.vc_carousel h2.post-title {font-size: 24px; font-weight:300; font-family: 'Roboto Slab', serif;}
+.vc_carousel h2.post-title a { color: #2e373d;}
+.vc_carousel h2.post-title a:hover { color: #e84a52;}
+
+
+@media screen and (min-width: 768px) {
+
+  .vc-carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.clearfix:after {
+  clear: both;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* Wordpress fix. */
+.entry-content ol.vc-carousel-indicators {
+  margin: 0 0 0 -30%;
+}
+.entry-content .vc_carousel_vertical ol.vc-carousel-indicators {
+  margin: 1px 0 0 0;
+  bottom: auto;
+}
+.wpb_images_carousel.carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner > .item > a {
+  display: block;
+}
+.wpb_images_carousel.carousel .vc-carousel-inner .vc-carousel-slideline .vc-carousel-slideline-inner > .item > a > img {
+  margin: auto;
+}
